@@ -59,7 +59,7 @@ def cipher(message, key, mode, symbols):
     elif symbols == 3:
         symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 "
     elif symbols == 4:
-        symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!?.', "
+        symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?."
 
     for char in message:
         # note: only characters in the variable "symbols" will be encrypted / decrypted
