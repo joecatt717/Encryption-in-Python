@@ -55,7 +55,6 @@ def transposition(message, key):
     for columns in range(len(cipher[0])):
         for rows in range(len(cipher)):
             translated_cipher += cipher[rows][columns]
-            print(translated_cipher)
 
     return translated_cipher
 
